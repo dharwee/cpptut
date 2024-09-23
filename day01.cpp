@@ -15,4 +15,6 @@ cout<<a<<endl<<b;
 /* TYPE CASTING
 int a=45.89;
 cout<<"The value of a is: <<int(a);   this will typecast the value of a, and print 45
+
+
   
