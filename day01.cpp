@@ -16,5 +16,6 @@ cout<<a<<endl<<b;
 int a=45.89;
 cout<<"The value of a is: <<int(a);   this will typecast the value of a, and print 45
 
-
+  //The break statement can also be used to jump out of a loop.
+//The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
   
