@@ -16,6 +16,16 @@ cout<<a<<endl<<b;
 int a=45.89;
 cout<<"The value of a is: <<int(a);   this will typecast the value of a, and print 45
 
-  //The break statement can also be used to jump out of a loop.
-//The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+The break statement can also be used to jump out of a loop.
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, 
+and continues with the next iteration in the loop.
+
+Pointers : Data type which stores the address of other data types
+int* b= &a;  &: address of operator
+
+cout<<"The address of a is"<< &a << endl;
+cout<< "The address of a is" << b << endl;
+
+cout<<"The value at address a is" << *b <<endl;
+
   
