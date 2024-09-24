@@ -28,4 +28,11 @@ cout<< "The address of a is" << b << endl;
 
 cout<<"The value at address a is" << *b <<endl;
 
+int** c=&b; //Pointer to Pointer variable
+
+cout<<"the address of b is" << &b <<endl;
+cout<< "the address of b is" << c <<endl;
+
+cout<<"the value at address c is" << *c <<endl;  //will give the value of b
+cout<<"the value at address value_at(value_at(c))"<< **c <<endl; //wil; give the value of a ie 3
   
