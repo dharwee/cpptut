@@ -104,3 +104,11 @@ int main() {
   cout << myVar;  // Now outputs 50
   return 0;
 }
+
+Note that if you assign a value to one specific item, the next items will update their numbers accordingly:
+
+enum Level {
+  LOW = 5,
+  MEDIUM, // Now 6
+  HIGH // Now 7
+};
