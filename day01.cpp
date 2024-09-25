@@ -90,3 +90,17 @@ enum Level {
 };
 Note that the last item does not need a comma.
 
+As you know, the first item of an enum has the value 0. The second has the value 1, and so on.
+
+To make more sense of the values, you can easily change them:
+
+enum Level {
+  LOW = 25,
+  MEDIUM = 50,
+  HIGH = 75
+};
+int main() {
+  enum Level myVar = MEDIUM;
+  cout << myVar;  // Now outputs 50
+  return 0;
+}
