@@ -77,3 +77,16 @@ myCar2.year = 1969;
 cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
 cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
 
+
+//ENUMS
+An enum is a special type that represents a group of constants (unchangeable values).
+
+To create an enum, use the enum keyword, followed by the name of the enum, and separate the enum items with a comma:
+
+enum Level {
+  LOW,
+  MEDIUM,
+  HIGH
+};
+Note that the last item does not need a comma.
+
