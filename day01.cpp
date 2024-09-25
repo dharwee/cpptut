@@ -112,3 +112,8 @@ enum Level {
   MEDIUM, // Now 6
   HIGH // Now 7
 };
+
+Why And When To Use Enums?
+Enums are used to give names to constants, which makes the code easier to read and maintain.
+
+Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
