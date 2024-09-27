@@ -117,3 +117,19 @@ Why And When To Use Enums?
 Enums are used to give names to constants, which makes the code easier to read and maintain.
 
 Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
+
+A union in C++ is a special data type that allows storing different data types in the same memory location. It is similar to a structure, but all members share the same memory space. Only one member can be active at a time, and accessing one member overwrites the value of the other members.
+
+Key Characteristics:
+
+Shared Memory Space: All members of a union occupy the same memory location.
+Only One Active Member: Only one member can be accessed or modified at a time. Accessing another member overwrites the previous value.
+Size: The size of a union is equal to the size of its largest member.
+Alignment: The alignment of a union is the same as its largest member.
+Example:
+
+union Data {
+    int i;
+    float f;
+    char str[20];
+};
