@@ -133,3 +133,19 @@ union Data {
     float f;
     char str[20];
 };
+
+In this example, the Data union has three members: i (an integer), f (a float), and str (a character array of size 20). Although all members occupy the same memory location, only one can be accessed or modified at a time.
+
+Accessing Members:
+
+Data d;
+d.i = 10;  // sets integer value
+cout << d.i << endl;  // prints 10
+
+d.f = 3.14;  // sets float value
+cout << d.f << endl;  // prints 3.14
+
+d.str[0] = 'H';  // sets character array value
+cout << d.str << endl;  // prints "H"
+
+
